@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="MauiTest.MainPage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:ctrl="clr-namespace:MauiTest">
+
+	<ScrollView>
+		<Grid
+			Margin="10,10,10,10"
+			HorizontalOptions="FillAndExpand"
+			VerticalOptions="FillAndExpand">
+			<ctrl:FormattedMessage Message="Lorem ipsum dolor sit amet, *consectetur adipiscing elit*. Nulla auctor enim convallis, *luctus augue ut*, efficitur urna. In at sem dui. Nam congue justo nec sem sollicitudin pharetra. Sed et eros dui. Ut nec ante sit amet nisi aliquet dapibus. Duis quis lobortis felis. Fusce id mauris pulvinar, vestibulum dui id, dignissim ligula. Nam in est in urna dignissim faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ullamcorper magna vel malesuada rutrum. Integer vestibulum ullamcorper lacinia. In molestie, velit id tincidunt porta, ex eros varius ipsum, at consequat purus urna eget orci." />
+		</Grid>
+	</ScrollView>
+</ContentPage>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+	x:Class="MauiTest.FormattedMessage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+	<FlexLayout
+		AlignItems="Start"
+		BindableLayout.ItemsSource="{Binding FormattedText}"
+		Direction="Row"
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand">
+		<BindableLayout.ItemTemplate>
+			<DataTemplate>
+				<Label
+					Padding="10"
+					FontAttributes="{Binding FontAttributes}"
+					Text="{Binding Text}"
+					TextColor="{Binding TextColor}" />
+			</DataTemplate>
+		</BindableLayout.ItemTemplate>
+	</FlexLayout>
+</ContentView>
