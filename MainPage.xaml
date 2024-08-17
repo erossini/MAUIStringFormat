@@ -6,11 +6,14 @@
 	xmlns:ctrl="clr-namespace:MauiTest">
 
 	<ScrollView>
-		<Grid
-			Margin="10,10,10,10"
-			HorizontalOptions="FillAndExpand"
-			VerticalOptions="FillAndExpand">
-			<ctrl:FormattedMessage Message="Lorem ipsum dolor sit amet, *consectetur adipiscing elit*. Nulla auctor enim convallis, *luctus augue ut*, efficitur urna. In at sem dui. Nam congue justo nec sem sollicitudin pharetra. Sed et eros dui. Ut nec ante sit amet nisi aliquet dapibus. Duis quis lobortis felis. Fusce id mauris pulvinar, vestibulum dui id, dignissim ligula. Nam in est in urna dignissim faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ullamcorper magna vel malesuada rutrum. Integer vestibulum ullamcorper lacinia. In molestie, velit id tincidunt porta, ex eros varius ipsum, at consequat purus urna eget orci." />
-		</Grid>
+		<VerticalStackLayout Margin="10,10,10,10">
+			<Grid
+				Margin="10,10,10,10"
+				HorizontalOptions="FillAndExpand"
+				VerticalOptions="FillAndExpand">
+				<ctrl:FormattedMessage Message="Lorem ipsum dolor sit amet, *consectetur adipiscing elit*. Nulla auctor enim convallis, *luctus augue ut*, efficitur urna. In at sem dui. Nam congue justo nec sem sollicitudin pharetra. Sed et eros dui. Ut nec ante sit amet nisi aliquet dapibus. Duis quis lobortis felis. Fusce id mauris pulvinar, vestibulum dui id, dignissim ligula. Nam in est in urna dignissim faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ullamcorper magna vel malesuada rutrum. Integer vestibulum ullamcorper lacinia. In molestie, velit id tincidunt porta, ex eros varius ipsum, at consequat purus urna eget orci." />
+			</Grid>
+			<Label Text="Lorem ipsum dolor sit amet, &lt;b>consectetur adipiscing elit&lt;/b>. Nulla auctor enim convallis, &lt;b&gt;luctus augue ut&lt;/b&gt;, efficitur urna. In at sem dui. Nam congue justo nec sem sollicitudin pharetra.&lt;br&gt;&lt;br&gt;Sed et eros dui. Ut nec ante sit amet nisi aliquet dapibus. Duis quis lobortis felis. Fusce id mauris pulvinar, vestibulum dui id, dignissim ligula. Nam in est in urna dignissim faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ullamcorper magna vel malesuada rutrum. Integer vestibulum ullamcorper lacinia. In molestie, velit id tincidunt porta, ex eros varius ipsum, at consequat purus urna eget orci." TextType="Html" />
+		</VerticalStackLayout>
 	</ScrollView>
 </ContentPage>
